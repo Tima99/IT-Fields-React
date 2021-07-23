@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .3rem;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 1.4rem;
+    animation: colorful 1s ease 0s infinite;
+    -webkit-animation: colorful 1s ease 0s infinite;
+}
+
+.web-name{
+    position: absolute;
+    top: 0;
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: rgb(192, 216, 236);
+    animation: wobble 1s ease-in 1s infinite alternate;
+    -webkit-animation: wobble 1s ease-in 1s infinite alternate;
+    transform: translateX(-1rem);
+    -webkit-transform: translateX(-1rem);
+    -moz-transform: translateX(-1rem);
+    -ms-transform: translateX(-1rem);
+    -o-transform: translateX(-1rem);
+}
+
+@keyframes wobble {
+    0%{
+        transform: translateX(-1rem);
+        -webkit-transform: translateX(-1rem);
+        -moz-transform: translateX(-1rem);
+        -ms-transform: translateX(-1rem);
+        -o-transform: translateX(-1rem);
+}
+    100%{
+        transform: translateX(1rem);
+        -webkit-transform: translateX(1rem);
+        -moz-transform: translateX(1rem);
+        -ms-transform: translateX(1rem);
+        -o-transform: translateX(1rem);
+}
+}
+
+@keyframes colorful {
+    0%{
+        color: whitesmoke;
+    }
+    100%{
+        color: rgb(175, 203, 226);
+    }
+}
