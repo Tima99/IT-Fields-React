@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import Clock from "./Projects/clock-first-prj/clock" // PROJECT 1
-
+import MoveMario from "./Projects/move-mario-state/move-mario" //PROJECT 2
 
 function ShowReactDOM() {
   ReactDOM.render(
     <React.StrictMode>
-      <App />
+      {/* <App /> */}
       {/* <Clock /> */}
+      <MoveMario />
     </React.StrictMode>,
     document.getElementById("root")
   );
