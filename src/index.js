@@ -3,13 +3,17 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import Clock from "./Projects/clock-first-prj/clock" // PROJECT 1
 import MoveMario from "./Projects/move-mario-state/move-mario" //PROJECT 2
+import Carrer from "./Projects/Carrer-Guidace/Carrer"
+
 
 function ShowReactDOM() {
   ReactDOM.render(
     <React.StrictMode>
       {/* <App /> */}
       {/* <Clock /> */}
-      <MoveMario />
+      {/* <MoveMario /> */}
+      <Carrer/>
+      
     </React.StrictMode>,
     document.getElementById("root")
   );
@@ -24,8 +28,3 @@ function ShowReactDOM() {
 
 ShowReactDOM()
 
-
-// State allows React components to change their output 
-// over time in response to user actions, network responses, and anything else,
-
-// State is similar to props, but it is private and fully controlled by the component.
