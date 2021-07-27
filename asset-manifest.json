@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/IT-Fields-React/static/css/main.54b19817.chunk.css",
+    "main.js": "/IT-Fields-React/static/js/main.87260b63.chunk.js",
+    "main.js.map": "/IT-Fields-React/static/js/main.87260b63.chunk.js.map",
+    "runtime-main.js": "/IT-Fields-React/static/js/runtime-main.c65194c7.js",
+    "runtime-main.js.map": "/IT-Fields-React/static/js/runtime-main.c65194c7.js.map",
+    "static/js/2.d9b5d76e.chunk.js": "/IT-Fields-React/static/js/2.d9b5d76e.chunk.js",
+    "static/js/2.d9b5d76e.chunk.js.map": "/IT-Fields-React/static/js/2.d9b5d76e.chunk.js.map",
+    "index.html": "/IT-Fields-React/index.html",
+    "static/css/main.54b19817.chunk.css.map": "/IT-Fields-React/static/css/main.54b19817.chunk.css.map",
+    "static/js/2.d9b5d76e.chunk.js.LICENSE.txt": "/IT-Fields-React/static/js/2.d9b5d76e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c65194c7.js",
+    "static/js/2.d9b5d76e.chunk.js",
+    "static/css/main.54b19817.chunk.css",
+    "static/js/main.87260b63.chunk.js"
+  ]
+}
