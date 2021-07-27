@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
-import Clock from "./Projects/clock-first-prj/clock" // PROJECT 1
-import MoveMario from "./Projects/move-mario-state/move-mario" //PROJECT 2
+// import App from "./App";
+// import Clock from "./Projects/clock-first-prj/clock" // PROJECT 1
+// import MoveMario from "./Projects/move-mario-state/move-mario" //PROJECT 2
 import Carrer from "./Projects/Carrer-Guidace/Carrer"
-
 
 function ShowReactDOM() {
   ReactDOM.render(
