@@ -65,14 +65,6 @@ const carrerApi = [
 
     {
         id : 9, 
-        language : "C++",
-        image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavWnoKrprcAbQ_eueLriCZWXkPIc8ZHDDSQ&usqp=CAU',
-        describe : 'C++ has many scope.  Lorem, ipsum dolor sit amet consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, atque.' ,
-        category : "Game"
-    },
-
-    {
-        id : 10, 
         language : "Kotlin",
         image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9a0ESSPA60dOW4y1QgMKourwsXRsJJUOFWg&usqp=CAU',
         describe : 'Kotlin is most popular under android devlopment. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, atque.' ,
@@ -80,7 +72,7 @@ const carrerApi = [
     },
 
     {
-        id : 11, 
+        id : 10, 
         language : "C#",
         image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_H6H50S0_cJDSjiDL2Xayi6rNVcTUg0NHkg&usqp=CAU',
         describe : 'Kotlin is most popular under android devlopment. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, atque.' ,
@@ -88,7 +80,7 @@ const carrerApi = [
     },
 
     {
-        id : 12, 
+        id : 11, 
         language : "Python",
         image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsZXtCHKJ1TrqoQ8bxi19jbU1UBExmzqMPA&usqp=CAU',
         describe : 'Python is most popular under language overall field. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, atque.' ,
